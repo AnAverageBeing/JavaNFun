@@ -1,37 +1,56 @@
 <!DOCTYPE html>
+
 <head>
     <title>BubbleSort</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style>
         body {
-          padding: 25px;
-          color: #9ca4a1;
-          font-size: 25px;
-          background-color:rgb(23, 24, 24);
+            padding: 25px;
+            color: #9ca4a1;
+            font-size: 25px;
+            background-color: rgb(23, 24, 24);
         }
-      </style>
+    </style>
 </head>
+
 <body>
     <img src="../../../../resources/images/bubble.png" width="100%vw" height="auto">
     <div style="width: auto;height:auto;">
-    <h3 id="-bubble-sort-"><strong>Bubble Sort :-</strong></h3>
-    <blockquote>
-    <p><strong> ➤ it is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.</strong></p>
-    </blockquote>
-    <p><strong><code>Input: arr[] = {5, 1, 4, 2, 8}</code></strong></p>
-    <p><strong>First Iteration:</strong> </p>
-    <pre><code>Bubble sort starts with very first two elements, comparing them to check which one is greater.
+        <h3 id="-bubble-sort-">
+            <strong>Bubble Sort :-</strong>
+        </h3>
+        <blockquote>
+            <p>
+                <strong>
+                    ➤ it is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if
+                    they are in the wrong order. This algorithm is not suitable for large data sets as its average and
+                    worst-case time complexity is quite high.</strong>
+            </p>
+        </blockquote>
+        <p>
+            <strong>
+                <code>Input: arr[] = {5, 1, 4, 2, 8}</code>
+            </strong>
+        </p>
+        <p>
+            <strong>First Iteration:</strong>
+        </p>
+        <pre><code>Bubble sort starts with very first two elements, comparing them to check which one is greater.
         ( <span class="hljs-number">5</span> <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">8</span> ) ➔ ( <span class="hljs-number">1</span> <span class="hljs-number">5</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">8</span> ), Here, algorithm compares the first two elements, and swaps since <span class="hljs-number">5</span> &gt; <span class="hljs-number">1.</span> 
         ( <span class="hljs-number">1</span> <span class="hljs-number">5</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">8</span> ) ➔ ( <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span> <span class="hljs-number">2</span> <span class="hljs-number">8</span> ), Swap since <span class="hljs-number">5</span> &gt; <span class="hljs-number">4</span> 
         ( <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span> <span class="hljs-number">2</span> <span class="hljs-number">8</span> ) ➔ ( <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">5</span> <span class="hljs-number">8</span> ), Swap since <span class="hljs-number">5</span> &gt; <span class="hljs-number">2</span> 
         ( <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">5</span> <span class="hljs-number">8</span> ) ➔ ( <span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span> <span class="hljs-number">5</span> <span class="hljs-number">8</span> ), Now, since these elements are already in order (<span class="hljs-number">8</span> &gt; <span class="hljs-number">5</span>), algorithm does not swap them.
-    </code></pre><p><strong>Second Iteration:</strong> </p>
-    <pre><code>Now, during second iteration it should look like this:
+    </code></pre>
+        <p>
+            <strong>Second Iteration:</strong>
+        </p>
+        <pre><code>Now, during second iteration it should look like this:
         (<span class="hljs-number"> 1 </span>4<span class="hljs-number"> 2 </span>5<span class="hljs-number"> 8 </span>) ➔ (<span class="hljs-number"> 1 </span>4<span class="hljs-number"> 2 </span>5<span class="hljs-number"> 8 </span>) 
         (<span class="hljs-number"> 1 </span>4<span class="hljs-number"> 2 </span>5<span class="hljs-number"> 8 </span>) ➔ (<span class="hljs-number"> 1 </span>2<span class="hljs-number"> 4 </span>5<span class="hljs-number"> 8 </span>), Swap since<span class="hljs-number"> 4 </span>&gt;<span class="hljs-number"> 2 </span>
         (<span class="hljs-number"> 1 </span>2<span class="hljs-number"> 4 </span>5<span class="hljs-number"> 8 </span>) ➔ (<span class="hljs-number"> 1 </span>2<span class="hljs-number"> 4 </span>5<span class="hljs-number"> 8 </span>) 
         (<span class="hljs-number"> 1 </span>2<span class="hljs-number"> 4 </span>5<span class="hljs-number"> 8 </span>) ➔ (<span class="hljs-number"> 1 </span>2<span class="hljs-number"> 4 </span>5<span class="hljs-number"> 8 </span>) 
-    </code></pre> 
-</div>
+    </code></pre>
+    </div>
 </body>
+
 </html>
