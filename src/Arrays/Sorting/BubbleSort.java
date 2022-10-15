@@ -1,6 +1,7 @@
 package Arrays.Sorting;
 
 public class BubbleSort {
+
     /*
      * This method takes a int array as input
      * Then sorts the array using BUBBLE SORT algorithm
