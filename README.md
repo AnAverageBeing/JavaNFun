@@ -1,6 +1,6 @@
 # JavaNFun
-Making this repo to help my frnds understand java cuz our teachers explain bad and indian edu system is shit
+Making this to help my friends understand java because our teacher's explaination is bad and indian education system is bad
 
 # DEMO
 
-live at: https://lastknell.github.io/JavaNFun/
+live at : https://anaveragebeing.github.io/JavaNFun/
